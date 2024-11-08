@@ -21,5 +21,6 @@ def anagrama(palabra1, palabra2):
         print(palabra1.lower(), palabra2.lower())
         return sorted(palabra1.lower()) == sorted(palabra2.lower())
 
-resultado = anagrama(palabra1,palabra2)
-print(f'{resultado}')
+if __name__ == '__main__':
+    resultado = anagrama(palabra1,palabra2)
+    print(f'{resultado}')

@@ -20,6 +20,6 @@ def fibonacci():
     return lista_fibonacci
 
 resultado = fibonacci()
-
-for numero in resultado:
+if __name__ == '__main__':
+    for numero in resultado:
      print(numero, end=', ')
