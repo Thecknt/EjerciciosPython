@@ -6,6 +6,7 @@ mes = int(input('Ingrese un numero equivalente a un mes del año, para pasarlo a
 
 if mes >0 and mes <13:
     for item in meses:
+        meses.app
         if item[1] == mes:
             print(f'El Mes ingresado es {item[0]}')
 else:
