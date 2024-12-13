@@ -1,4 +1,5 @@
-#Crea una tupla que almacene las coordenadas de tres puntos en un plano. Calcula la distancia entre el primero y el segundo punto.
+#Crea una tupla que almacene las coordenadas de tres puntos en un plano.
+# Calcula la distancia entre el primero y el segundo punto.
 
 import math
 
