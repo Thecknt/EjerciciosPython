@@ -72,3 +72,13 @@ def promedios(notas):
 respuesta = promedios(notas)
 
 print(f"El promedio es {respuesta}")
+
+oracion = input("Ingrese una palabra para generarla al reves -> ")
+
+def alreves(oracion):
+    nueva_oracion = oracion[::-1]
+    return nueva_oracion
+
+palabra_alreves = alreves(oracion)
+
+print(palabra_alreves)
